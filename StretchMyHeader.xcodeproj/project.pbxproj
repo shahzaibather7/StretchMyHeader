@@ -8,22 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		119086DE1F55E820009D87B3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 119086DD1F55E820009D87B3 /* AppDelegate.swift */; };
-		119086E01F55E820009D87B3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 119086DF1F55E820009D87B3 /* ViewController.swift */; };
+		119086E01F55E820009D87B3 /* tableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 119086DF1F55E820009D87B3 /* tableViewController.swift */; };
 		119086E31F55E820009D87B3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 119086E11F55E820009D87B3 /* Main.storyboard */; };
 		119086E61F55E820009D87B3 /* StretchMyHeader.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 119086E41F55E820009D87B3 /* StretchMyHeader.xcdatamodeld */; };
 		119086E81F55E820009D87B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 119086E71F55E820009D87B3 /* Assets.xcassets */; };
 		119086EB1F55E820009D87B3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 119086E91F55E820009D87B3 /* LaunchScreen.storyboard */; };
+		119086F31F55EA7A009D87B3 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 119086F21F55EA7A009D87B3 /* TableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		119086DA1F55E820009D87B3 /* StretchMyHeader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StretchMyHeader.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		119086DD1F55E820009D87B3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		119086DF1F55E820009D87B3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		119086DF1F55E820009D87B3 /* tableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tableViewController.swift; sourceTree = "<group>"; };
 		119086E21F55E820009D87B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		119086E51F55E820009D87B3 /* StretchMyHeader.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = StretchMyHeader.xcdatamodel; sourceTree = "<group>"; };
 		119086E71F55E820009D87B3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		119086EA1F55E820009D87B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		119086EC1F55E820009D87B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		119086F21F55EA7A009D87B3 /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +59,8 @@
 			isa = PBXGroup;
 			children = (
 				119086DD1F55E820009D87B3 /* AppDelegate.swift */,
-				119086DF1F55E820009D87B3 /* ViewController.swift */,
+				119086DF1F55E820009D87B3 /* tableViewController.swift */,
+				119086F21F55EA7A009D87B3 /* TableViewCell.swift */,
 				119086E11F55E820009D87B3 /* Main.storyboard */,
 				119086E71F55E820009D87B3 /* Assets.xcassets */,
 				119086E91F55E820009D87B3 /* LaunchScreen.storyboard */,
@@ -139,7 +142,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				119086E01F55E820009D87B3 /* ViewController.swift in Sources */,
+				119086E01F55E820009D87B3 /* tableViewController.swift in Sources */,
+				119086F31F55EA7A009D87B3 /* TableViewCell.swift in Sources */,
 				119086DE1F55E820009D87B3 /* AppDelegate.swift in Sources */,
 				119086E61F55E820009D87B3 /* StretchMyHeader.xcdatamodeld in Sources */,
 			);
